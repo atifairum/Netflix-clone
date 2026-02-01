@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix"
+                    class="netflix-logo">
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">New & Popular</a></li>
+                    <li><a href="#">My List</a></li>
+                    <li><a href="#">Browse by Languages</a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <span class="icon search-icon">🔍</span>
+                <div class="notifications">
+                    <span class="icon bell-icon">🔔</span>
+                </div>
+                <div class="profile-wrapper">
+                    <img src="https://i.pravatar.cc/40?img=68" alt="Profile" class="profile-avatar">
+                    <span class="dropdown-icon">▼</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="https://via.placeholder.com/1920x1080/1a1a1a/666666?text=STRANGER+THINGS" alt="Hero Background">
+        </div>
+        <div class="hero-vignette"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">STRANGER THINGS</h1>
+            <div class="hero-meta">
+                <span class="match">98% Match</span>
+                <span class="year">2022</span>
+                <span class="rating">16+</span>
+                <span class="seasons">4 Seasons</span>
+            </div>
+            <p class="hero-description">
+                When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying
+                supernatural forces and one strange little girl.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-play">
+                    <span class="btn-icon">▶</span>
+                    Play
+                </button>
+                <button class="btn btn-info">
+                    <span class="btn-icon">ⓘ</span>
+                    More Info
+                </button>
+            </div>
+        </div>
+        <div class="hero-fade"></div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+
+        <!-- Trending Now -->
+        <div class="movie-row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="row-container">
+                <div class="movie-cards-container">
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Movie+1" alt="Movie">
+                        <div class="movie-hover-info">
+                            <div class="hover-controls">
+                                <button class="control-btn play-btn">▶</button>
+                                <button class="control-btn">➕</button>
+                                <button class="control-btn">👍</button>
+                            </div>
+                            <div class="hover-meta">
+                                <span class="match-score">95% Match</span>
+                                <span class="age-rating">16+</span>
+                            </div>
+                            <div class="hover-genres">Action • Thriller • Drama</div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Movie+2" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Movie+3" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Movie+4" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Movie+5" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Movie+6" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Movie+7" alt="Movie">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular on Netflix -->
+        <div class="movie-row">
+            <h2 class="row-title">Popular on Netflix</h2>
+            <div class="row-container">
+                <div class="movie-cards-container">
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Popular+1" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Popular+2" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Popular+3" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Popular+4" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Popular+5" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Popular+6" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Popular+7" alt="Movie">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Netflix Originals -->
+        <div class="movie-row">
+            <h2 class="row-title">Netflix Originals</h2>
+            <div class="row-container">
+                <div class="movie-cards-container">
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Original+1" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Original+2" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Original+3" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Original+4" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Original+5" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Original+6" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Original+7" alt="Movie">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top 10 in Your Country Today -->
+        <div class="movie-row">
+            <h2 class="row-title">Top 10 in Your Country Today</h2>
+            <div class="row-container">
+                <div class="movie-cards-container top-ten">
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">1</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+1" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">2</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+2" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">3</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+3" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">4</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+4" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">5</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+5" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">6</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+6" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">7</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+7" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">8</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+8" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">9</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+9" alt="Movie">
+                    </div>
+                    <div class="movie-card top-ten-card">
+                        <div class="top-ten-number">10</div>
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=Top+10" alt="Movie">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Continue Watching -->
+        <div class="movie-row">
+            <h2 class="row-title">Continue Watching for User</h2>
+            <div class="row-container">
+                <div class="movie-cards-container">
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Continue+1" alt="Movie">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 45%"></div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Continue+2" alt="Movie">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 72%"></div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Continue+3" alt="Movie">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 28%"></div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Continue+4" alt="Movie">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 61%"></div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Continue+5" alt="Movie">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 15%"></div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/ffffff?text=Continue+6" alt="Movie">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- My List -->
+        <div class="movie-row">
+            <h2 class="row-title">My List</h2>
+            <div class="row-container">
+                <div class="movie-cards-container">
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=My+List+1" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=My+List+2" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=My+List+3" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=My+List+4" alt="Movie">
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://via.placeholder.com/300x450/2a2a2a/e50914?text=My+List+5" alt="Movie">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-icon">📘</a>
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">📷</a>
+                <a href="#" class="social-icon">📺</a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <a href="#">Audio Description</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Legal Notices</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Help Centre</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Cookie Preferences</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Corporate Information</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Media Centre</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <button class="service-code">Service Code</button>
+            <p class="copyright">© 1997-2024 Netflix, Inc.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
